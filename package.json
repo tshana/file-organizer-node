@@ -1,11 +1,24 @@
 {
   "name": "file-organizer-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Building a custom file organizer script with Node.js",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tshana/file-organizer-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tshana/file-organizer-node/issues"
+  },
+  "homepage": "https://github.com/tshana/file-organizer-node#readme"
 }
